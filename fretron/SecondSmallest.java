@@ -1,5 +1,13 @@
 package com.fretron;
 
+/*
+    Problem : 
+    Solution Approch : 
+    1.) Check what is possible data set for given problem. // Min array element required : 2 otherwise not able to find 2nd min. (throw Exception)
+    2.) Think about solution.
+
+*/
+
 public class SecondSmallest {
 
     public static void main(String ag[]){
@@ -19,5 +27,9 @@ public class SecondSmallest {
         }
         System.out.println(s2);
     }
+    
+    //method
+    //input 
+    //output : 
 
 }
