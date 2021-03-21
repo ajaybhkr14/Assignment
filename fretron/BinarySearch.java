@@ -1,5 +1,10 @@
 package com.fretron;
-
+/*
+* Problem: Implement binary search
+* Solution: first we take the element at the mid point of the array and compare to the key (element to be searched)
+* if element at mid point is greater than key then we will find the mid point taking 0 as left index and previous
+*  mid point at right index .
+* */
 import java.util.Stack;
 
 public class BinarySearch {

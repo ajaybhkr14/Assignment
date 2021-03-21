@@ -1,5 +1,10 @@
 package com.fretron;
-
+/*
+* Problem: What are threads and implement race conditions in java
+* Solution : In race condition when two or more threads access the same resource at same time and make changes
+* to it this will effect the overall operation.In this program we are taking a count variable and two threads
+* will be created which will manipulate this variable by using sleep method we will add delay.
+* */
 public class RaceCondition implements Runnable{
     int count=0;
     public void increment(){
